@@ -4,9 +4,11 @@ All your company email, operated by agents and reviewed by you.
 
 This one directory is the Banger plugin for every agent host that reads the
 open plugin layout: **Claude Code and Claude Cowork** (`.claude-plugin/`),
-**Grok Build / Grok Bot** (`.grok-plugin/`), and **ChatGPT / Codex**
-(`.codex-plugin/`). Each host reads its own manifest; they all share the same
-skill and the same hosted MCP server.
+**Grok Build / Grok Bot** (`.grok-plugin/`), **ChatGPT / Codex**
+(`.codex-plugin/`), and **Cursor** (`.cursor-plugin/`). Each host reads its own
+manifest; they all share the same skill and the same hosted MCP server. Any
+other MCP client connects to the same server; see
+[`llms-install.md`](./llms-install.md).
 
 ## What it ships
 
@@ -45,6 +47,13 @@ directly:
 codex mcp add banger --url https://api.bangermail.com/mcp
 codex mcp login banger
 ```
+
+Cursor: install **Banger** from the Cursor Marketplace.
+
+Cline, Docker MCP Toolkit, OpenClaw, Hermes, and any other MCP client: add the
+remote server `https://api.bangermail.com/mcp` (Streamable HTTP, OAuth). Step
+by step: [`llms-install.md`](./llms-install.md) and
+https://bangermail.com/banger-mcp/.
 
 Claude Cowork and ChatGPT install Banger from their plugin directories once it
 is listed there.

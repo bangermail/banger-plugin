@@ -1,11 +1,16 @@
 ---
 name: operate-company-email
 description: Operate Banger's canonical company-email system through MCP. Use when onboarding or configuring Banger; creating or reading mailboxes; sending Product email or Broadcasts; managing contacts, audiences, designs, Journeys, domains, connections, approvals, deliverability, or Logs; or finding email growth opportunities from product and business context.
+metadata:
+  openclaw:
+    homepage: https://bangermail.com/agents/openclaw/
 ---
 
 # Operate Company Email
 
 Use Banger as the governed system of record. Humans, Banger, and external agents must see and modify the same workspace state.
+
+If no `banger_*` tools are available, the Banger MCP server is not connected yet. Ask the user to add the remote server `https://api.bangermail.com/mcp` (Streamable HTTP, OAuth sign-in in the browser; no API key) in their client's MCP settings, then sign in. Setup guides per client: https://bangermail.com/banger-mcp/. Never ask for a password or token in chat.
 
 Use the product's canonical vocabulary in every user-facing response: **Mailboxes**, **Journeys**, **Broadcast**, **Product email**, **Approvals**, and **Logs**. A Journey is any automated email flow, whether it has one step or many. Do not expose the retired Autopilot, automation, sequence, campaign, or transactional-screen names. If an older client invokes a compatibility alias, describe the result with the canonical term.
 

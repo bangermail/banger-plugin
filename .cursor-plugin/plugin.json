@@ -15,7 +15,7 @@
     "banger mail",
     "banger email"
   ],
-  "logo": "assets/banger-logo.png",
+  "logo": "assets/banger-icon-400.png",
   "skills": "./skills/",
   "mcpServers": {
     "banger": {
