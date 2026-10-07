@@ -8,13 +8,13 @@
   },
   "metadata": {
     "description": "Banger company email for agents: Mailboxes, Journeys, Broadcast, Product email, Approvals, and Logs.",
-    "version": "0.2.1"
+    "version": "0.2.2"
   },
   "plugins": [
     {
       "name": "banger",
       "source": "./",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Operate product, lifecycle, and marketing email with Banger through one governed MCP connection.",
       "author": {
         "name": "BangerMail Inc.",
