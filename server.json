@@ -3,10 +3,10 @@
   "name": "com.bangermail/banger",
   "title": "Banger",
   "description": "All your company email, operated by agents and reviewed by you.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://bangermail.com/banger-mcp/",
   "repository": {
-    "url": "https://github.com/MuchBetterApps/banger-plugin",
+    "url": "https://github.com/bangermail/banger-plugin",
     "source": "github"
   },
   "remotes": [

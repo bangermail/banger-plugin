@@ -28,14 +28,14 @@ use it.
 Claude Code:
 
 ```bash
-claude plugin marketplace add MuchBetterApps/banger-plugin
+claude plugin marketplace add bangermail/banger-plugin
 claude plugin install banger@banger
 ```
 
 Grok Build / Grok Bot:
 
 ```bash
-grok plugin install MuchBetterApps/banger-plugin --trust
+grok plugin install bangermail/banger-plugin --trust
 ```
 
 Codex: install **Banger** from the Codex plugin directory, or add the server
